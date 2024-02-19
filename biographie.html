@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Da Vinci Code - Adaptation littéraire au cinéma</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #95775e;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
+        nav ul {
+            list-style-type: none;
+            padding: 0;
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #fff;
+            text-decoration: none;
+            transition: color 0.3s;
+        }
+
+        nav ul li a:hover {
+            color: #e9616c; /* Rouge lors du survol */
+        }
+
+        /* Style pour le contenu principal */
+        main {
+            padding: 20px;
+        }
+
+        section {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+
+        article {
+            margin-bottom: 40px;
+            border-bottom: 1px solid #ccc; /* Ligne de séparation entre les articles */
+            padding-bottom: 20px;
+            color: #fff;
+            display: flex; /* Permet aux éléments de l'article d'être alignés horizontalement */
+        }
+
+        article:last-child {
+            border-bottom: none; /* Supprimer la ligne de séparation pour le dernier article */
+        }
+
+        img {
+            object-fit: cover;
+        }
+
+        h2 {
+            font-size: 28px;
+            color: #e9616c; /* Rouge */
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            font-size: 24px;
+            color: #4b423b;
+            margin-bottom: 10px;
+        }
+
+        p {
+            margin-bottom: 10px;
+            flex: 1; 
+        }
+
+        .livre-image,
+        .film-image {
+            max-width: 300px; 
+            margin-right: 20px; 
+            border-radius: 10px;
+        }
+
+        iframe {
+            display: block;
+            margin: 0 auto;
+        }
+
+        footer {
+            background-color: #4b423b;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        /* Media Query pour les petits écrans */
+        @media screen and (max-width: 600px) {
+            header h1 {
+                font-size: 20px;
+            }
+
+            h2 {
+                font-size: 24px;
+            }
+
+            h3 {
+                font-size: 20px;
+            }
+
+            article {
+                padding-bottom: 10px;
+                flex-direction: column; 
+            }
+
+            .livre-image,
+            .film-image {
+                margin-right: 0; 
+                margin-bottom: 10px; 
+            }
+        }
+
+        .cadre-rouge {
+            border: 2px solid #c5a78a;
+            padding: 20px;
+            background-color: #c5a78a;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo">       
+            <a href="index.html"> <img src="images/logo.png" alt=""></a>         <h1>Ishola Akpo</h1>
+</a>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="biographie.html">Biographie</a></li>
+                <li><a href="contexte.html">Contexte</a></li>
+                <li><a href="oeuvre.html">Oeuvre</a></li>
+                <li><a href="sources.html">Sources</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <article>
+                <img src="images/Portrait-isholaakpo.jpg" alt="" class="livre-image">
+                <div class="cadre-rouge">
+                    <h3>Biographie de Ishola Akpo</h3>
+                    <p>Né en 1983 en Côte d'Ivoire, Ishola Akpo est un artiste visuel et photographe originaire du Bénin. Il exerce son art entre Cotonou et Paris. Sa carrière photographique a débuté en 2008 lors de sa participation au Forum Transculturel d'art contemporain de Port-au-Prince. Depuis, il a accumulé des résidences artistiques et reçu des distinctions telles que le prix de la Fondation Heinrich Böell et le Freelens du webdoc au Festival de Photographie de Toulouse. En 2015, il devient Lauréat de Photoquai, intégrant ainsi la collection du Musée du Quai Branly à Paris avec sa série "Les mariés de notre époque".
+                    </p>
+                    <p></p>
+                </div>
+            </article>
+
+            
+            <article>
+                <img src="images/trophy_695144.png" alt="" class="film-image">
+                <div class="cadre-rouge">
+                    <h3>Distinctions</h3>
+                    <ul>
+                     <li>2011 : Lauréat Fondation Heinrich Böll, ( Afrique du Sud )</li>
+                        <li>2012 : Lauréats prix bénincultures, Bénin;</li>
+                        <li>2012 : Freelens du webdoc, Festival de Photographie de Toulouse, France;</li>
+                        <li>2013 : Lauréat visa pour la création, Institut français, Paris</li>
+                        <li>2015 : Lauréat résidence Photoquai, Musée du quai Branly - Jacques-Chirac</li>
+                        <li>2017 : Nommé prix orisha, pour l’art contemporain africain.                        </li>
+                        <li>2018 : Nommé capprize 21, the contemporary african photography;
+                        </li>
+                    </ul>
+
+
+                   
+                </div>
+            </article>
+        
+        </section>
+    </main>
+    
+    <footer>
+        <div>© 2023 Charlene Odunlami</div>
+    </footer>
+</body>
+</html>
