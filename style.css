@@ -105,6 +105,23 @@ footer {
 
 
 
+@media only screen and (max-width: 600px) {
+    nav ul li {
+        display: block;
+        margin: 10px 0;
+    }
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+
+    p {
+ width: 80%;
+ margin-top: 75px;
+}
+    }
+
 
 
 
